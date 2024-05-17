@@ -27,7 +27,7 @@ export default function Home() {
 
           <div className="flex mt-24">
             <button className="p-2 rounded-lg bg-sky-200"><a href="">Read More</a></button>
-            <button className="p-2 rounded-lg bg-sky-200 mx-4"><a href="">Tried Demo</a></button>
+            <button className="p-2 rounded-lg bg-sky-200 mx-4"><a href="/login">Tried Demo</a></button>
           </div>
         </div>
         <div className="flex justify-center place-self-center ml-36">
