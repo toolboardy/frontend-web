@@ -1,5 +1,6 @@
 import Image from "next/image";
-
+import About from '../components/index'
+import imgAndrePortesiExample from '../../public/andre-portolesi-4yz1a6z4qTg-unsplash.jpg'
 export default function Home() {
   return (
     <main className="flex min-h-screen bg-white text-neutral-900">
@@ -30,8 +31,11 @@ export default function Home() {
           </div>
         </div>
         <div className="flex justify-center place-self-center ml-36">
-          <h1 className="text-7xl text-sky-500">Toolboardy</h1>
+          <About className="mt-24" srcImage={imgAndrePortesiExample} />
         </div>
+      </div>
+      <div className="mt-94">
+
       </div>
       
     </main>
