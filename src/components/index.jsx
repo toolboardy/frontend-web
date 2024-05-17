@@ -3,7 +3,7 @@ import Image from "next/image";
 export default function About({ className, srcImage }) {
   return (
     <div
-      className={`border-[10px] border-white rounded-[29px] bg-[#d4ffff] flex w-fit h-fit mt-[800px] ml-[-280px] z-10 p-5 gap-4${
+      className={`border-[10px] border-white rounded-[29px] bg-[#d4ffff] flex w-fit h-fit mt-[700px] ml-[-780px] z-10 p-5 gap-4${
         className || ""
       }`}
     >

@@ -31,6 +31,7 @@ export default function Home() {
           </div>
         </div>
         <div className="flex justify-center place-self-center ml-36">
+          <h1 className="text-7xl text-sky-500 place-self-center mt-[-500px]">Toolboardy</h1>
           <About className="mt-24" srcImage={imgAndrePortesiExample} />
         </div>
       </div>
