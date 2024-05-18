@@ -18,5 +18,12 @@ def main():
                 print(fs.read())
                 print("")
                 print("Urls succes: ", url)
+                new_fs = open(manament[1], 'w')
+                new_fs.write(str(manament[0]))
+                if (new_fs.write(str(manament[0]))):
+                    print("Security validate: True")
+                
+                else:
+                    print("Security validate: Error")
 
 main()
